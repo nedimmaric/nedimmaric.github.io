@@ -75,7 +75,6 @@ section {
 }
 .side-menu {
     height: 80%;
-    background-color: lavender;
     background-image: url("plava.jpg"); 
     position: absolute;
     margin-left: 80%;
