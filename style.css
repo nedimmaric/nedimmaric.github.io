@@ -74,18 +74,13 @@ section {
     font-family: alexbrush;
 }
 .side-menu {
-    height: 533px;
+    height: 80%;
     background-color: silver;
     position: absolute;
     margin-left: 80%;
     width: 20%;
     text-align: center;
-}
-.zanimljivost-dana {
-    background-color: silver;
     font-family: roboto;
-    border-radius: 20px;
-    padding-left: 5px;
 }
 footer {
     background-color: black;
