@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;    
+}
+body {
+    background-color: grey;
+}
+header {
+    height:90px;
+    background-color: darkred;
+}
+li, a {
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+    font-size: 15px;
+    color:white;
+    font-family: verdana;
+}
+ul {
+    margin-left: 7%;
+    padding-top: 39px;
+    position: fixed;
+}
+li {
+    margin-left: 120px;
+}
+.logo {
+    height: 70px;
+    width: 90px;
+    background-image: url("pizza-majstor2.jpg");
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius:19px; 
+}
+section {
+    width:80%;
+    margin-left: 10%;
+    height: 100px;
+}
+.main-photo {
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    width:100%;
+    height: 350px;
+}
