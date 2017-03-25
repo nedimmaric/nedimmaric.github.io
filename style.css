@@ -7,11 +7,11 @@
     -webkit-box-sizing: border-box;    
 }
 body {
-    background-color: grey;
+    background-color: lightgreen;
 }
 header {
     height:90px;
-    background-color: darkred;
+    background-color: black;
 }
 li, a {
     text-decoration: none;
@@ -19,7 +19,7 @@ li, a {
     display:inline-block;
     font-size: 15px;
     color:white;
-    font-family: verdana;
+    font-family: roboto;
 }
 ul {
     margin-left: 7%;
@@ -40,12 +40,63 @@ li {
 }
 section {
     width:80%;
-    margin-left: 10%;
-    height: 100px;
+    height:auto;
+    background-color: white;
+    position: relative;
+    font-family: roboto;
+}
+.tekst {
+    padding-top: 30px;
+    margin-left: 2px;
+}
+@font-face {
+    font-family: alexbrush;
+    src: url(AlexBrush-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Black.ttf);
 }
 .main-photo {
-    background-image: url("pizza.jpg");
+    margin-top: 30px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),url("pizza.jpg");
     background-size: cover;
     width:100%;
-    height: 350px;
+    height: 410px;
+    color:white;
+    padding-top: 13%;
+    text-align: center;
+    font-size: 40px;
+    font-family: alexbrush;
+}
+.side-menu {
+    height: 533px;
+    background-color: silver;
+    position: absolute;
+    margin-left: 80%;
+    width: 20%;
+    margin-top: -533px;
+    text-align: center;
+}
+.zanimljivost-dana {
+    background-color: silver;
+    font-family: roboto;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+footer {
+    background-color: black;
+    height:39px;
+    color:white;
+}
+.copyright {
+    float:left;
+    margin-right: 15px;
+}
+a {
+    border-bottom: 3px solid yellow;
+    padding-bottom: 20px;
 }
