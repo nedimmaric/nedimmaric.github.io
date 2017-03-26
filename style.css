@@ -8,6 +8,7 @@
 }
 body {
     background-color: black;
+    height:100%;
 }
 header {
     height:90px;
@@ -59,6 +60,7 @@ section {
     src: url(Roboto-Black.ttf);
 }
 .main-photo {
+    height:0;
     margin-top: 30px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
@@ -74,9 +76,9 @@ section {
     font-family: alexbrush;
 }
 .side-menu {
-    height: 80%;
     background-image: url("plava.jpg"); 
-    position: absolute;
+    position: relative;
+    height:530px;
     margin-left: 80%;
     width: 20%;
     text-align: center;
@@ -87,8 +89,10 @@ section {
 footer {
     background-color: black;
     height:39px;
+    margin-left: -79%;
     color:white;
-    margin-top: 533px
+    margin-top: 5px;
+    float:left;
 }
 .copyright {
     float:left;
