@@ -8,35 +8,34 @@
 }
 body {
     background-color: black;
-    height:100%;
 }
 header {
-    height:90px;
+    height:70px;
     background-color: black;
 }
 li, a {
     text-decoration: none;
     color:black;
     display:inline-block;
-    font-size: 15px;
+    font-size: 13px;
     color:white;
     font-family: roboto;
 }
 ul {
     margin-left: 7%;
-    padding-top: 39px;
+    padding-top: 19px;
     position: fixed;
 }
 li {
     margin-left: 120px;
 }
 .logo {
-    height: 70px;
+    height: 55px;
     width: 90px;
     background-image: url("pizza-majstor2.jpg");
     position: absolute;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 7px;
     border-radius:19px; 
 }
 section {
@@ -49,7 +48,10 @@ section {
 }
 .tekst {
     padding-top: 30px;
-    margin-left: 2px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    background-image: url("linije.jpg");
+    background-size: cover;
 }
 @font-face {
     font-family: alexbrush;
@@ -61,7 +63,6 @@ section {
 }
 .main-photo {
     height:0;
-    margin-top: 30px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
@@ -76,32 +77,29 @@ section {
     font-family: alexbrush;
 }
 .side-menu {
-    background-image: url("plava.jpg"); 
-    position: absolute;
-    height:530px;
+    position: relative;
+    background: url("plava.jpg");
+    height:518px;
     margin-left: 80%;
     width: 20%;
     text-align: center;
     font-family: roboto;
-    padding-top: 15%;
-    border-radius: 10px;
 }
 footer {
     background-color: black;
     height:39px;
-    margin-left: -79%;
     color:white;
-    margin-top: 5px;
     float:left;
+    color:white;
 }
 .copyright {
     float:left;
-    margin-right: 15px;
+    color:white;
 }
 a {
     border-bottom: 3px solid yellow;
     padding-bottom: 20px;
-    transition: font-size 1s;
+    transition: font-size 0.5s;
 }
 a:hover{
     font-size:20px;
