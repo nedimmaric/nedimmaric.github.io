@@ -77,7 +77,7 @@ section {
 }
 .side-menu {
     background-image: url("plava.jpg"); 
-    position: relative;
+    position: absolute;
     height:530px;
     margin-left: 80%;
     width: 20%;
